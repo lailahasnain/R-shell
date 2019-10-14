@@ -1,8 +1,7 @@
 # CS 100 Programming Project
 
 Summer A1 2019
-
-Contributors: Kirsten Louks [SID: 861208326], Laila Aaser [SID: 862017896 ], Lindsey Young [SID: 862009924]
+Laila Aaser (Other partner's name redacted for her privacy :) )
 
 ## Introduction
 RShell is a program that will run a basic command shell in C++. Essentially, it will allow for a user to input (type) in different commands to carry out certain operations. RShell will be able to print a command prompt ($), read in commands, connect commands, and execute commands. The design team will be creating an abstract starting class called RShell. There will also be Executor and Parser classes. The Parser class simply will work like any other parser and split the user input into smaller pieces. The Executor class will be using the waitpid(), execvp() and fork() functions accordingly to carry out their operations.  The base class of CommandBase will determine what commands are carried out according to the design specifications.  There will also be an exit() function that is solely used the exit the program.  There will be a "test" and "()" functionality included as well.
